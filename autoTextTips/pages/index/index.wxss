@@ -1,0 +1,8 @@
+/* 自动提示填写 */
+.ipt-gp{padding:10rpx 0rpx;margin:20rpx;}
+.ipt-tt{font-size:36rpx;}
+.ipt-gp input{font-size:36rpx;padding:10rpx;border-bottom:1px solid #999;vertical-align:bottom;}
+
+.text-auto-bx{position:relative;}
+.text-scroll-bx{height:auto;position: absolute;top: 120rpx;background:#555;z-index:99}
+.text-scroll{overflow: hidden;text-overflow: ellipsis; white-space: nowrap;padding: 20rpx 20rpx 20rpx 20rpx;border-bottom: 1px solid #b1b1b1;color:#fff}

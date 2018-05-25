@@ -1,0 +1,14 @@
+<!-- 自动提示输入+选择 -->
+<view class="ipt-gp">
+
+  <view class="text-auto-bx">
+    <text class="ipt-tt">牛舍：（自动提示）</text>
+    <input name="newbar" bindinput="bindTextInput" value="{{textAutoValue}}" placeholder="请输入内容" />
+    <scroll-view scroll-y="true" class="text-scroll-bx">
+      <view wx:for="{{textAutoShowArr}}" wx:key="" wx:for-item="items">
+        <view id="{{items}}" bindtap="onTextArrItemTap" class="text-scroll">{{items}}</view>
+      </view>
+    </scroll-view>  
+  </view> 
+
+</view> 

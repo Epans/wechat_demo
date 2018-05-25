@@ -1,0 +1,6 @@
+page{background-color:#fff;height:100%;}
+
+text{font-family: MicroSoft Yahei;font-size: 36rpx;color: #777;}
+
+input{font-family: MicroSoft YaHei;}
+
